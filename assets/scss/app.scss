@@ -1,0 +1,171 @@
+@import '_variables';
+
+@import 'https://cdn.jsdelivr.net/npm/@mdi/font@5.9.55/css/materialdesignicons.min.css';
+
+// Import bulma styles
+@import '~bulma';
+
+// Import buefy styles
+@import '~buefy/src/scss/buefy';
+
+.topbar {
+  background: $darkblue;
+  color: white;
+  padding: 10px 0;
+}
+
+.b-steps {
+  &.is-large {
+    .steps {
+      .step-items {
+        .step-item {
+          .step-details {
+            .step-title {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+      + .step-content {
+        padding: 1rem 0;
+      }
+    }
+  }
+}
+
+.button {
+  font-weight: bold;
+  border-radius: 0;
+  .is-large {
+    font-size: (26rem/16);
+  }
+}
+
+.table {
+  font-size: (19rem/16);
+  font-weight: bold;
+}
+
+.navbar {
+  .navbar-item,
+  .navbar-link {
+    font-size: (22rem/16);
+
+    //padding-left: 1rem;
+    //padding-right: 1rem;
+  }
+  .navbar-dropdown {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    .navbar-item,
+    .navbar-link {
+      color: $text;
+      font-size: (14rem/16);
+      border-bottom: 1px solid rgb(238, 238, 238);
+
+      //padding-left: 1rem;
+      //padding-right: 1rem;
+    }
+  }
+}
+
+.table {
+  &.is-white {
+    tbody {
+      tr {
+        background-color: white !important;
+      }
+    }
+  }
+}
+
+.title {
+  font-size: (22rem/16);
+  font-weight: normal;
+  border-bottom: 1px solid #bdbdbd;
+  padding-bottom: 5px;
+}
+
+.bcm-widget {
+  .main-info {
+    background-color: $primary;
+    padding: 30px 5% 160px 5%;
+    text-align: center;
+    color: white;
+    .main-info-title {
+      font-weight: bold;
+    }
+    &.is-danger {
+      background-color: $danger;
+    }
+  }
+  .action-box {
+    margin: -140px 5% 0 5%;
+    background: white;
+    color: $text;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 36px 10%;
+    font-size: (19rem/16);
+    .status {
+      text-align: center;
+
+      .status-icon {
+        font-size: 90px;
+      }
+      .status-description {
+        font-size: (22rem/16);
+      }
+    }
+    .summary {
+      .level-left {
+        flex-shrink: 1;
+        .level-item {
+          flex-shrink: 1;
+          margin-right: 20px;
+        }
+      }
+      .amount {
+        font-weight: bold;
+        font-size: (50rem/16);
+      }
+    }
+  }
+}
+
+.form {
+  legend {
+    text-align: center;
+    font-size: (22rem/16);
+    margin-bottom: 20px;
+  }
+}
+
+.disabled-input {
+  background: #d9dbdd;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  padding: 9px 12px;
+}
+
+.fraction {
+  text-align: center;
+  display: inline-block;
+  .numerator {
+    border-bottom: 1px solid $text;
+  }
+}
+
+.breadcrumb {
+  border-top: 1px solid rgb(167, 167, 167);
+  border-bottom: 1px solid rgb(167, 167, 167);
+  &.is-small {
+    font-size: (13rem/16);
+  }
+}
+
+.section {
+  &.section-no-vertical-padding {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}

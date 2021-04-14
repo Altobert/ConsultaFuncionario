@@ -1,0 +1,32 @@
+$blue: #1760a0;
+$green: #37a71d;
+$red: #f50e02;
+$darkblue: #00273d;
+$orange: #eb510d;
+
+$primary: $blue;
+$success: $green;
+$text: black;
+$danger: $red;
+$info: $orange;
+
+// Dejamos anchos iguales a sii.cl
+$widescreen: 1204px;
+$fullhd: 1204px;
+
+$family-sans-serif: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$scheme-main-bis: #f2f2f2;
+
+$footer-background-color: #00273d;
+$footer-padding: 22px 0;
+$navbar-item-color: $primary;
+$navbar-dropdown-border-top: none;
+$navbar-dropdown-item-hover-background-color: $orange;
+$navbar-dropdown-item-hover-color: white;
+$navbar-item-img-max-height: 100%;
+$navbar-item-hover-background-color: none;
+$navbar-item-hover-color: $orange;
+$breadcrumb-item-hover-color: $orange;
+$breadcrumb-item-color: rgb(112, 111, 111);
+$breadcrumb-item-padding-vertical: 6px;
+$section-padding: (20rem/16);
